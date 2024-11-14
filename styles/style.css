@@ -3,3 +3,10 @@
     --card-front-color:#9821dd;
     --card-back-color:#6421bb;
 }
+.cartao_{
+    background-color:var(--card-front-color);
+    text-align: center;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition:transfom 300ms ease-in-out;
+}
